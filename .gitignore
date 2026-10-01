@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Logs
+logs/
+*.log
+
+# Generated reports
+reports/
+
+# Generated screenshots
+# Keep the folder, ignore generated security images
+screenshots/*.jpg
+screenshots/*.jpeg
+screenshots/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+config.local.py
+secrets.py
+*.secret
